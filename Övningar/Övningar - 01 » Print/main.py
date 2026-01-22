@@ -1,4 +1,5 @@
-print("\nÖvningar - 01 » Print\n")
+print("\nÖvningar - 01 » Print")
+print("=========================\n")
 
 print("1. Hälsning")
 print("Hej", "världen!", "Nu använder jag kommatecken för att separera ord.")

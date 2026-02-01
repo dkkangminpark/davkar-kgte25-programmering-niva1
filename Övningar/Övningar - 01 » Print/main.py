@@ -50,3 +50,5 @@ print("   *\n  ***\n *****\n*******\n   *\n   *")
 
 print("\nBonus 4: Smiley")
 print("  *****\n *     *\n*  o o  *\n*   ^   *\n*  '_'  *\n *     *\n  *****")
+
+print("\nSlut på övningarna.")

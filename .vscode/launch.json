@@ -1,0 +1,124 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Övningar - 01 » Print",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 01 » Print/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 02 » Variabler och Literaler",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 02 » Variabler och Literaler/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 03 » Typkonvertering",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 03 » Typkonvertering/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 04 » Input",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 04 » Input/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 05 » Operatörer",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 05 » Operatörer/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 06 » If",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 06 » If/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 07 » For-Loopar",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 07 » For-Loopar/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 08 » While-Loopar",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 08 » While-Loopar/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 09 » Break Continue",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 09 » Break Continue/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 10 » Listor",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 10 » Listor/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 11 » Listor och Loopar",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 11 » Listor och Loopar/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 12 » Strängar",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 12 » Strängar/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 13 » Dictionaries",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 13 » Dictionaries/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 14 » Random",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 14 » Random/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 15 » Funktioner",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 15 » Funktioner/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar - 16 » Funktioner Global Local",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar - 16 » Funktioner Global Local/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Övningar » 15 Extra Övningar",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Övningar/Övningar » 15 Extra Övningar/main.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

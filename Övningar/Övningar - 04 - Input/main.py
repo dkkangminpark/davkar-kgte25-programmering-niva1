@@ -1,6 +1,6 @@
 import time
 
-print("\nÖvningar - 02 » Variabler och Literaler")
+print("\nÖvningar - 04 » Input")
 print("=========================\n")
 
 print("Nivå 1 - Enkla inputs")
@@ -125,7 +125,7 @@ time.sleep(1)
 
 print("\n5. Pris med moms")
 exklMoms = float(input("Vad kostar varan? "))
-inklMoms = exklMoms*1.25
+inklMoms = exklMoms * 1.25
 print(f"{inklMoms} kr")
 
 print("\nSlut på övningarna.")

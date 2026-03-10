@@ -45,22 +45,39 @@ else:
 
 time.sleep(1)
 
-"""
+
 print("Nivå 3 - Flera villkor med elif")
 print("===========\n")
 
+
 print("1. Fråga efter ett betyg")
-myDic = {"A": "Utmärkt", "B": "Bra Jobbat!"} # Om jag vill använda myDic
+# Använder myDic
+myDic = {"A": "Utmärkt", "B": "Bra jobbat!", "C":"Godkänt.", "D":"Behöver förbättras", "F":"Underkänt"} # Om jag vill använda myDic
 ans = input("Skriv ditt betyg: ")
-print(myDic[ans]) # Använder myDic
+if ans in myDic: print(myDic[ans])
+else: print("Du har inte skrivit in något betyg!")
+
+time.sleep(1)
 
 # Använder if-elif-else
+ans = input("Skriv ditt betyg: ")
 if (ans == "A"): print("Utmärkt!") 
 elif (ans == "B"): print("Bra jobbat!")
 elif (ans == "C"): print("Godkänt.")
 elif (ans == "D"): print("Behöver förbättras.")
 elif (ans == "F"): print("Underkänt.")
-else: print("Du har inte skrivit in något jävla betyg ditt jävla arsle!")
+else: print("Du har inte skrivit in något betyg!")
 # end if
 
+time.sleep(1)
+
+print("\n2. Fråga efter temeratur")
+temp = input("Vad är temperaturen: ")
+if (int(temp) > 20): print("Varmt")
+elif (int(temp) < 10): print("Kallt")
+elif (int(temp) <= 20 and int(temp) >= 10): print("Lagom")
+else: print("Ej giltigt svar")
+
+time.sleep(1)
+"""
 

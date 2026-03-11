@@ -81,3 +81,36 @@ else: print("Ej giltigt svar")
 time.sleep(1)
 """
 
+print("Nivå 4 - Kombinerade villkor")
+print("===========\n")
+
+"""
+print("1. Fråga efter två tal")
+myList = input("Skriv två tal (separera med ', '): ")
+myList = myList.split(", ")
+
+if (int(myList[0]) > 0 and int(myList[1]) > 0):
+    print("Båda är positiva!")
+elif (int(myList[0]) < 0 or int(myList[1]) < 0):
+    print("Minst en är negativ")
+else:
+    print("Din input är inte korrekt")
+#end if
+
+time.sleep(1)
+
+print("\n2. Fråga efter användarnamn och lösenord")
+correctUsername = "admin"
+correctPassword = "1234"
+
+inputUsername = input("Username: ")
+inputPassword = input("Password: ")
+
+if (inputUsername == correctUsername and inputPassword == correctPassword):
+    print("Inloggning lyckades")
+else:
+    print("Fel användarnamn eller lösenord")
+#end if 
+
+time.sleep(1)
+"""

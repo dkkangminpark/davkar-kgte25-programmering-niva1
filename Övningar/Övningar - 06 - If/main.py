@@ -3,7 +3,7 @@ import time
 print("\nÖvningar - 06 » If-satser")
 print("=========================\n")
 
-"""print("Nivå 1 - Enkla vilkor")
+print("Nivå 1 - Enkla vilkor")
 print("===========\n")
 
 print("1.")
@@ -79,12 +79,11 @@ elif (int(temp) <= 20 and int(temp) >= 10): print("Lagom")
 else: print("Ej giltigt svar")
 
 time.sleep(1)
-"""
 
 print("Nivå 4 - Kombinerade villkor")
 print("===========\n")
 
-"""
+
 print("1. Fråga efter två tal")
 myList = input("Skriv två tal (separera med ', '): ")
 myList = myList.split(", ")
@@ -113,4 +112,11 @@ else:
 #end if 
 
 time.sleep(1)
-"""
+
+print("Nivå 4 - Kombinerade villkor")
+print("===========\n")
+
+print("1. Fråga efter årtal")
+year = int(input("Skriv ett år: "))
+if (year % 4) == 0: print("Skottår")
+else: print("Inte skottår")

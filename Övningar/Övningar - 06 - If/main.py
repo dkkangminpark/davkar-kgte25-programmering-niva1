@@ -113,7 +113,7 @@ else:
 
 time.sleep(1)
 
-print("Nivå 4 - Kombinerade villkor")
+print("Nivå 5 - Sammansatt logik")
 print("===========\n")
 
 print("1. Fråga efter årtal")

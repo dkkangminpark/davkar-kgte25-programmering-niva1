@@ -3,7 +3,7 @@ import time
 print("\nÖvningar - 07 » For-loopar")
 print("=========================\n")
 
-""" print("1. Räkna från 1 till 10")
+print("1. Räkna från 1 till 10")
 for n in range(1,11): print(n)
 #end for
 
@@ -50,7 +50,6 @@ resultat = ""
 
 for tecken in mening:
     resultat += tecken + "*"
-
 # Ta bort sista *
 resultat = resultat[:-1]
 
@@ -60,10 +59,22 @@ time.sleep(1)
 
 print("\n8. Triangel av stjärnor")
 for x in range(1,6):
-    print('*' * x) """
+    print('*' * x)
 #end for
+
+time.sleep(1)
 
 print("\n9. Multiplikationstabell i tabellform (dubbla for-loopar)")
 for x in range(1,11):
     for y in range (1,11):
         print(str(x) + " x " + str(y) + " = " + str(x*y))
+#end for
+
+time.sleep(1)
+
+
+print("\n10. Rektangel av stjärnor")
+bredd = int(input("Ange bredd: "))
+höjd = int(input("Ange höjd: "))
+for x in range(höjd):
+    print('*' * bredd)

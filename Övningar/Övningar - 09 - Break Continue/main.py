@@ -4,6 +4,9 @@ import time
 print("\nÖvningar - 08 » While-loopar")
 print("=============================\n")
 
+print("\nDel 1: Enkla loopar (Svårighetsgrad 1–3)")
+print("============\n")
+
 print("1. Stoppa räkningen tidigt (break)")
 for x in range(1,11):
     print(x)
@@ -18,7 +21,7 @@ for x in range(1,8):
     print(x)
 #end for
 
-time.sleep(1) """
+time.sleep(1)
 
 print("\n3. Loop för användarinput (while och break)")
 ans = None
@@ -26,3 +29,10 @@ while True:
     ans = input("Skriv ett tal: ")
     if ans == "0": break
 #end while
+
+time.sleep(1)"""
+
+print("\nDel 2: Komplexa villkor och kombinationer (Svårighetsgrad 4–6)")
+print("============\n")
+
+print("\n3. Loop för användarinput (while och break)")

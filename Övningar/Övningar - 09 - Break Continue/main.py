@@ -60,7 +60,7 @@ while x < 20:
     print(x)
 #end while
 
-time.sleep(1)"""
+time.sleep(1)
 
 print("\nDel 3: Nästlade loopar och avancerad logik (Svårighetsgrad 7–10)")
 print("============\n")
@@ -70,4 +70,36 @@ for x in range(1,4):
     print(f"Yttre loop: {x}")
     for y in range(1,6):
         print(f"Inre loop: {y}")
-        if y == 3: break
+        if y == 3: break;
+#end for
+
+time.sleep(1)
+
+print("\n8. Filtrering i nästlad loop (continue i nästlad loop)")
+for x in range(1,4):
+    for y in range(1,4):
+        if y == x: continue;
+        print(f"Yttre loop: {x}")
+        print(f"Inre loop: {y} \n")
+#end for
+
+time.sleep(1)
+
+print("\n9. Primtalskontroll med tidigt avbrott (break)")
+n = 97
+if n <= 1:
+    print(False)
+elif n % 2 == 0:
+    print(True)     
+else:
+    primtal = True
+    for i in range(3, int(n**0.5), 2):
+        print(n%i)
+        if n % i == 0:
+            primtal = False
+            break
+    print(primtal)
+#end for
+
+time.sleep(1)"""
+

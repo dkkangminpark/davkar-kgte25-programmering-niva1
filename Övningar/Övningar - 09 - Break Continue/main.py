@@ -1,6 +1,5 @@
 import time
 
-""" 
 print("\nÖvningar - 08 » While-loopar")
 print("=============================\n")
 
@@ -101,5 +100,18 @@ else:
     print(primtal)
 #end for
 
-time.sleep(1)"""
+time.sleep(1)
 
+print("\n10. Stegkontroll och tidig avslutning (Komplex kombination)")
+num = 5
+while num <= 50:
+    if num % 2 == 0 and num % 3 == 0:
+        num += 2
+        continue
+    elif num >= 45:
+        break
+    else:
+        print(num)
+        num += 1
+    #end if
+#end while

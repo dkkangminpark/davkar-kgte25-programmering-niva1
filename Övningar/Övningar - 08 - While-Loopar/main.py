@@ -4,7 +4,6 @@ from random import *
 print("\nÖvningar - 08 » While-loopar")
 print("=============================\n")
 
-"""
 print("1. Räkna från 1 till 10")
 x = 1
 while x <= 10:
@@ -118,5 +117,3 @@ while ans != tal:
     else: print("För lågt!")
 #end while
 print("Rätt!")
-
-"""

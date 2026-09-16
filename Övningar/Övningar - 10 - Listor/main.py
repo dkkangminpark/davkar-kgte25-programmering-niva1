@@ -73,4 +73,20 @@ for food in food_list:
     print(food)
 #end for
 
+time.sleep(1)
+
 print("\n2. Skapa en lista med sju tal. Skriv ut hur många tal som finns med len().")
+tal = [1, 4, 3, 2, 6, 5, 9]
+print(len(tal))
+
+time.sleep(1)
+
+print("\n3. Skapa en lista med fem namn. Skriv ut varje namn tillsammans med dess index")
+names = ["Anes", "Anes 2", "Anes 3", "Anes 4"]
+print(f"{names[0]} - {names.index(names[0])}\n{names[1]} - {names.index(names[1])}\n{names[2]} - {names.index(names[2])}\n{names[3]} - {names.index(names[3])}")
+
+time.sleep(1)
+
+print("\nNivå 4 - Modifiering och borttagning")
+print("============\n")
+

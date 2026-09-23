@@ -1,9 +1,10 @@
 import time
+import random
 
 print("\nÖvningar - 10 » Listor")
 print("=============================\n")
 
-print("\nNivå 1 - Grundläggande listor")
+""" print("\nNivå 1 - Grundläggande listor")
 print("============\n")
 
 print("1. Skapa en lista med tre frukter och skriv ut den.")
@@ -86,7 +87,36 @@ names = ["Anes", "Anes 2", "Anes 3", "Anes 4"]
 print(f"{names[0]} - {names.index(names[0])}\n{names[1]} - {names.index(names[1])}\n{names[2]} - {names.index(names[2])}\n{names[3]} - {names.index(names[3])}")
 
 time.sleep(1)
-
+ """
 print("\nNivå 4 - Modifiering och borttagning")
 print("============\n")
 
+print("1. Skapa en lista med fyra färger. Ta bort en färg med remove() och skriv ut listan.")
+colors = ["Maroon", "Turquoise", "Crimson", "Blue"]
+colors.remove("Maroon")
+print(colors)
+
+time.sleep(1)
+
+print("\n2. Skapa en lista med fem siffror. Ta bort talet på index 2 med del och skriv ut listan")
+numbers = [1, 4, 7, 9, 3]
+del numbers[2]
+print(numbers)
+
+time.sleep(1)
+
+print("\n3. Skapa två listor med fem siffor. Lägg ihop dem med extend() och skriv ut den nya listan")
+list_one = [1, 2, 3, 4, 5]
+list_two = [6, 7, 8, 9, 10]
+list_one.extend(list_two)
+print(list_one)
+
+print("\nNivå 5 - Kombinera flera moment")
+print("============\n")
+
+print("1. Skapa en lista med fem slumpmässiga tal. Sortera listan med sort() och skriv ut den. Skriv sedan ut det största och minsta talet med index.")
+li = []
+for i in range(5):
+    li.append(random.randint(1, 101))
+print(li)
+print(f"1:a -> {li[0]}. 2:a -> {li[-1]}")

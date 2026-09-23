@@ -1,4 +1,4 @@
-Övningar i print() 
+rÖvningar i print() 
 
 Du får bara använda:
 print()

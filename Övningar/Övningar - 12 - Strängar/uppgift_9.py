@@ -1,8 +1,8 @@
 # Uppgift 9
-strang1 = "Hej Världen"
-strang2 = "hej världen"
+strang1 = "Hello World"
+strang2 = "hello world"
 
 if strang1.lower() == strang2.lower():
-    print("Strängarna är lika!")
+    print("SAME!")
 else:
-    print("Strängarna är olika.")
+    print("NOT SAME!")
